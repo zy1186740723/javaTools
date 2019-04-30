@@ -44,6 +44,7 @@ public class MainMethod {
      * 消费者并行计算
      */
     public static void parallel(Disruptor<LongEvent> disruptor){
+        System.out.println("进行消费者的并行计算");
         disruptor.handleEventsWith(new C11EventHandler(),new C21EventHandler());
         disruptor.start();
 

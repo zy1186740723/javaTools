@@ -1,6 +1,6 @@
 package com.DisruptorDemo;
 
-/**
+/**传递信息的设计
  * @Author: zhangyan
  * @Date: 2019/4/25 22:19
  * @Version 1.0
